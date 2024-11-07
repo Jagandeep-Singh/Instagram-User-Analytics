@@ -1,4 +1,4 @@
--- Marketing Analysis
+-- *Marketing Analysis*
 
 -- Rewarding Most Loyal Users
 
@@ -44,6 +44,8 @@ select date_format((created_at),  '%W') as days, count(username)
 from users
 group by days
 order by count(username) desc;
+
+-- *Investor Metrics*
 
 -- User Engagement
 
